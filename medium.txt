@@ -1,0 +1,31 @@
+What is the difference between a linear search and a binary search?
+How does a binary search work?
+How does a hash table work?
+How does a trie work?
+How does a bloom filter work?
+What is dynamic programming?
+How do you solve the knapsack problem using dynamic programming?
+Solve the longest common subsequence problem using dynamic programming?
+Solve edit distance problem using dynamic programming?
+How do you solve the traveling salesman problem using dynamic programming?
+What is a greedy algorithm?
+How do you solve the knapsack problem using a greedy algorithm?
+How do you solve the activity selection problem using a greedy algorithm?
+How do you solve the Prim's algorithm using a greedy algorithm?
+How do you solve the Dijkstra's algorithm using a greedy algorithm?
+What is the difference between a time complexity and a space complexity?
+What is the big-O notation?
+Differentiate between a recursive algorithm and a non-recursive algorithm?
+Differentiate between a divide-and-conquer  and a dynamic programming algorithm?
+Differentiate between a backtracking algorithm and a branch-and-bound algorithm?
+What is the difference between an array and a matrix?
+How do you find the minimum element in an array?
+How do you implement a circular array?
+How do you implement a sparse array?
+How do you find the k-th largest element in an array?
+
+
+
+
+
+

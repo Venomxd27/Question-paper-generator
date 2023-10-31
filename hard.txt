@@ -1,0 +1,27 @@
+How do you insert an element at the beginning of a linked list?
+How do you insert an element at the end of a linked list?
+How do you delete an element from a linked list?
+How do you reverse a linked list using recursion?
+How do you implement a double-ended queue using a linked list?
+What is the difference between a complete binary tree and a perfect binary tree?
+How do you find the height of a binary tree?
+How do you implement a balanced binary search tree?
+How do you implement an AVL tree?
+How do you implement a red-black tree?
+What is the difference between a directed acyclic graph (DAG) and a cyclic graph?
+How do you find the topological order of a DAG?
+Find the single source shortest path in a weighted graph using the Bellman-Ford algorithm?
+How do you find the maximum flow in a network using the Ford-Fulkerson algorithm?
+How do you find the minimum cut in a graph using the Stoer-Wagner algorithm?
+Differentiate between an in-place sorting algorithm and an out-of-place sorting algorithm?
+How does counting sort work?
+How does radix sort work?
+How does bucket sort work?
+How does shell sort work?
+Solve the matrix chain multiplication problem using dynamic programming?
+How do you solve the longest common substring problem using dynamic programming?
+How do you solve the knapsack problem using dynamic programming?
+How do you solve the coin change problem using dynamic programming?
+How do you solve the rod cutting problem using dynamic programming?
+
+

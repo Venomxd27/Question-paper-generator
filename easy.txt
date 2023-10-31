@@ -1,0 +1,26 @@
+What is the difference between a dynamic array and a fixed-size array?
+How do you find the maximum element in an array?
+How do you implement a stack using an array?
+How do you implement a queue using an array?
+How do you reverse an array in place?
+Differentiate between a singly linked list and a doubly linked list?
+How do you find the middle element in a singly linked list?
+How do you reverse a singly linked list in place?
+How do you implement a hash table using a linked list?
+How do you detect a loop in a linked list?
+What is the difference between a binary tree and a binary search tree?
+How do you find the maximum depth of a binary tree?
+How do you implement an inorder traversal of a binary tree?
+How do you implement a preorder traversal of a binary tree?
+How do you implement a postorder traversal of a binary tree?
+What is the difference between an undirected graph and a directed graph?
+How do you find the shortest path between two nodes?
+Implement the minimum spanning tree of a graph using Prim's algorithm?
+How do you detect a cycle in an undirected graph?
+How do you find all the connected components in an undirected graph?
+Differentiate between a stable and an unstable sorting algorithm?
+How does insertion sort work?
+How does quicksort work?
+How does merge sort work?
+How does heapsort work?
+
