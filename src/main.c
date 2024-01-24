@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "pdfgen.c"
-#include "pdfgen.h"
+#include "../external libraries/pdfgen.c"
+#include "../external libraries/pdfgen.h"
 // extra questions thay to next pdf ma jatu reh evu karwanu baki che
 
 // created structure for circular linked list
@@ -48,7 +48,7 @@ void create_linked_list(struct circular_linked_list **head, char question[100], 
 void create_circular_linked_list_easy()
 {
     FILE *file_pointer;
-    file_pointer = fopen("easy.txt", "r");
+    file_pointer = fopen("Questions/easy.txt", "r");
     if (file_pointer == NULL)
     {
         printf("File does not exist\n");
@@ -70,7 +70,7 @@ void create_circular_linked_list_easy()
 void create_circular_linked_list_medium()
 {
     FILE *file_pointer;
-    file_pointer = fopen("medium.txt", "r");
+    file_pointer = fopen("Questions/medium.txt", "r");
     if (file_pointer == NULL)
     {
         printf("File does not exist\n");
@@ -92,7 +92,7 @@ void create_circular_linked_list_medium()
 void create_circular_linked_list_hard()
 {
     FILE *file_pointer;
-    file_pointer = fopen("hard.txt", "r");
+    file_pointer = fopen("Questions/hard.txt", "r");
     if (file_pointer == NULL)
     {
         printf("File does not exist\n");
@@ -237,12 +237,15 @@ int main()
             head_easy = head_easy->next;
             free(question_index);
         }
+        if(easy_questions != 0) {
+
           pdf_set_font(pdf, "Times-Bold");
         pdf_add_text_wrap(
             pdf, page, "SECTION - II", 14, 0, PDF_A4_HEIGHT - offset, 0, PDF_BLACK, PDF_A4_WIDTH,
             PDF_ALIGN_CENTER, NULL);
 pdf_set_font(pdf, "Times-Roman");
         offset += 20;
+        }
 
         // Adding questions from hard.txt to the pdf
         for (int i = 0; i < hard_questions; i++)
@@ -261,12 +264,15 @@ pdf_set_font(pdf, "Times-Roman");
             offset += 3;
             free(question_index);
         }
+
+        if(hard_questions != 0) {
           pdf_set_font(pdf, "Times-Bold");
         pdf_add_text_wrap(
             pdf, page, "SECTION - III", 14, 0, PDF_A4_HEIGHT - offset, 0, PDF_BLACK, PDF_A4_WIDTH,
             PDF_ALIGN_CENTER, NULL);
 pdf_set_font(pdf, "Times-Roman");
         offset += 20;
+        }
 
         // Adding questions from medium.txt to the pdf
         for (int i = 0; i < medium_questions; i++)
@@ -290,9 +296,9 @@ pdf_set_font(pdf, "Times-Roman");
         FILE *fp;
         fp = fopen("index.txt", "w");
         fseek(fp, 0L, SEEK_SET);
-        fprintf(fp, "%d\n", easy_questions%26);
-        fprintf(fp, "%d\n", medium_questions %26);
-        fprintf(fp, "%d\n", hard_questions%26);
+        fprintf(fp, "%d\n", easy_questions%25);
+        fprintf(fp, "%d\n", medium_questions %25);
+        fprintf(fp, "%d\n", hard_questions%25);
         fclose(fp);
     }
 
